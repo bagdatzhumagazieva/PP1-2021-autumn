@@ -9,8 +9,8 @@ int main() {
 
 	cin >> s >> t;
 
-	bool check = true; 
-	
+	bool check = true;
+
 	for (int i = 0; i < t.length(); i += s.length()) {
 		if (t.substr(i, s.length()) != s) {
 			check = false;

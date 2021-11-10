@@ -3,17 +3,16 @@ using namespace std;
 int main()
 {
 	string s,t;
-	cin>>s;
+	cin >> s;
 
-	for(int i=0;i<=s.size();i++)
-	{
+	for(int i = 0; i <= s.size(); i++) {
 		bool isPalindrome = true;
 
 		s.insert(i, "*");
 
 		s[i] = s[s.size() - 1 - i];
 		
-		for(int j = 0; j< s.size(); j++)
+		for(int j = 0; j < s.size(); j++)
 		{
 			if(s[j] != s[s.size() -1 -j])
 			{
