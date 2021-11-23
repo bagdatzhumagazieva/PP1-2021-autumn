@@ -16,7 +16,6 @@ int main(){
          cin >> a;
 
          v.push_back(a);
-       
     }
 
     int l, r;
